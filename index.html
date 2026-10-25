@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jakson Alves de Aquino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<!-- Floating Profile Sidebar Component -->
+<aside class="sidebar">
+  <img src="face.jpg" alt="Jakson Alves de Aquino" class="profile-img">
+  <h3>Jakson Alves de Aquino</h3>
+  <p class="title">Federal University of Ceará<br>Brazil</p>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-btn active" data-target="about">About Me</a></li>
+      <li><a href="#publications" class="nav-btn" data-target="publications">Publications</a></li>
+      <li><a href="#news" class="nav-btn" data-target="news">News</a></li>
+    </ul>
+  </nav>
+
+  <div class="social-links">
+    <a href="https://scholar.google.com/citations?user=JlHUMZ8AAAAJ">Google Scholar</a><br>
+    <a href="https://orcid.org/0000-0003-2522-8573">ORCID</a>
+    <a href="https://github.com/jalvesaq">GitHub</a>
+  </div>
+  <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle dark mode">☀️ Light</button>
+  <form action="pt.html" method="get">
+    <button class="theme-toggle-btn" type="submit" aria-label="Portuguese version">🇧🇷 Português</button>
+  </form>
+</aside>
+
+<!-- Main Display Engine -->
+<main class="main-content">
+  <section id="about" class="active">
+    <h2>About Me</h2>
+
+    <p>I am a political scientist at the Federal University of Ceará (UFC),
+      Brazil, interested in comparative political behavior, public opinion, and
+      democracy. My research combines cross-national survey data&mdash;including
+      the AmericasBarometer, Afrobarometer, and World Values Survey&mdash;with
+      historical, macroeconomic, and social indicators, using quantitative
+      methods to investigate political attitudes and behavior across countries
+      and over time.</p>
+
+    <p>Contact: <a href="#" id="minfo" class="mlink">JavaScript required.</a></p>
+  </section>
+
+  <section id="publications">
+    <h2>Selected Publications</h2>
+
+    <div class="pub-category">
+      <h3>Journal Articles</h3>
+
+      <div class="pub-item">
+        <p class="pub-title">Environmental equity and urban afforestation in the extreme northeastern Brazilian Amazon
+        </p>
+        <p class="pub-authors">Jimenez, L. A.; Silvestre, S. M.; <strong>Aquino, J. A.</strong>; Freire, L. M.;
+          Toledo,
+          J. J.</p>
+        <p class="pub-venue"><em>Urban Ecosystems</em>, v. 27, p. 2349-2365, 2024.</p>
+        <div class="pub-links">
+          <a href="http://dx.doi.org/10.1007/s11252-024-01592-4" class="pub-link">Article</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <p class="pub-title">The meaning of trust for Brazilians with higher education</p>
+        <p class="pub-authors"><strong>Jakson Alves de Aquino</strong></p>
+        <p class="pub-venue"><em>Social Indicators Research</em>, v. 130, n. 1, p. 325-349, jan. 2017.</p>
+        <div class="pub-links">
+          <a href="http://dx.doi.org/10.1007/s11205-015-1178-0" class="pub-link">Article</a>
+          <a href="d/trust_2013_br.tar.gz" class="pub-link">Questionnarie, data, and R code</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <p class="pub-title">The effect of exposure to political institutions and economic events on demand for
+          democracy
+          in Africa</p>
+        <p class="pub-authors"><strong>Jakson Alves de Aquino</strong></p>
+        <p class="pub-venue"><em>Afrobarometer Working Paper</em>, n. 160, September 2015.</p>
+        <div class="pub-links">
+          <a href="https://www.afrobarometer.org/wp-content/uploads/2022/02/afropaperno160_demand_for_democracy.pdf"
+            class="pub-link">PDF</a>
+          <a href="d/afr15.tar.gz" class="pub-link">R
+            code</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <p class="pub-title">Congressmen in the age of social network sites: Brazilian representatives and Twitter use
+        </p>
+        <p class="pub-authors">MARQUES, F. P. J. A.; <strong>AQUINO, J. A.</strong>; MIOLA, E.</p>
+        <p class="pub-venue"><em>First Monday</em>, v. 19, n. 5, 05/May/2014.</p>
+        <div class="pub-links">
+          <a href="http://firstmonday.org/ojs/index.php/fm/article/view/5022/4084" class="pub-link">Article</a>
+          <a href="d/Brazilian_Congress_Twitter.tar.gz" class="pub-link">Data and R code</a>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <p class="pub-title">Cooperation among virtual anthropoids in a complex environment</p>
+        <p class="pub-authors"><strong>Jakson Alves de Aquino</strong></p>
+        <p class="pub-venue"><em>Interdisciplinary Description of Complex Systems</em>, v. 9, n. 1, p. 56-80, 2011.
+        </p>
+        <div class="pub-links">
+          <a href="http://indecs.eu/2011/indecs2011-pp56-80.pdf" class="pub-link">PDF</a>
+          <a href="d/anthropoids-080909.tar.gz" class="pub-link">Original code</a> (no longer compiles)
+          <a href="https://github.com/jalvesaq/anthropoids" class="pub-link">New code</a> (for Linux)
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <p class="pub-title">Two evolutionary games: Collective Action and Prisoner&#8217;s Dilemma</p>
+        <p class="pub-authors"><strong>Jakson Alves de Aquino</strong></p>
+        <p class="pub-venue">In: Delrieux, Claudio &amp; Legris, Javier (Org.). <em>Computer Modeling of Scientific
+            Reasoning</em>. Buenos Aires, 2003. p. 1-14.</p>
+        <div class="pub-links">
+          <a href="d/Aquino%202003%20Two%20games.pdf" class="pub-link">PDF</a>
+          <a href="d/twogames.zip" class="pub-link">Code</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="pub-category">
+      <h3>Conference Proceedings</h3>
+
+      <div class="pub-item">
+        <p class="pub-title">The social dynamics of religiosity decline</p>
+        <p class="pub-authors"><strong>Jakson Alves de Aquino</strong></p>
+        <p class="pub-venue"><em>27th World Congress of Political Science</em>, Buenos Aires, Argentina, 15-19 July
+          2023.</p>
+        <div class="pub-links">
+          <a href="d/dyn_rel_decl.pdf" class="pub-link">PDF</a>
+        </div>
+      </div>
+    </div>
+
+    <p><a href="pt.html#publicacoes" class="pub-link">Publications in Portuguese</a></p>
+
+
+  </section>
+
+
+  <section id="news">
+    <h2>News</h2>
+    <div id="news-feed-container">
+
+      <article class="news-post">
+        <div class="news-date">October 25, 2026</div>
+        <div class="news-body">
+          In October 2025, I submitted a request to the faculty board of the Department
+          of Social Sciences at the Federal University of Ceará to transfer to the
+          University of International Integration of Afro-Brazilian Lusophony (<a
+            href="https://unilab.edu.br/">Unilab</a>), but the request was denied. In
+          August 2026, I appealed the decision, and my appeal was granted. I expect the
+          transfer to take effect immediately after the end of the current semester.
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
